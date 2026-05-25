@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"> <!-- Sudah diarahkan ke folder css -->
+        <title>Portfolio Nabila</title>
+        <!-- CSS akan ditambahkan pada praktikum berikutnya -->
+    </head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <h1>2025</h1>
+            <p>Web Developer | UI Designer</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang Saya</a></li>
+                <li><a href="#keterampilan">Keterampilan</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <h2>Halo, Saya Nabila</h2>
+            <h3>Web Developer & UI Designer</h3>
+            <p>Saya adalah mahasiswa Teknik Informatika yang bersemangat dalam pengembangan web dan desain UI.</p>
+            <div class="hero-buttons">
+                <a href="#proyek" class="btn btn-primary">Lihat Proyek</a>
+                <a href="#kontak" class="btn btn-secondary">Hubungi Saya</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src=".jpg" alt="Foto Nabila">
+        </div>
+    </section>
+
+    <!-- Bagian Tentang Saya -->
+    <section id="tentang" class="about">
+        <div class="section-header">
+            <h2>Tentang Saya</h2>
+            <p>Informasi singkat tentang latar belakang dan minat saya</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Siapa Saya?</h3>
+                <p>Saya adalah mahasiswa Teknik Informatika semester 4 di [Nama Universitas].</p>
+                <p>Saya bersemangat untuk mempelajari teknologi baru dan menerapkannya dalam proyek.</p>
+            </div>
+            <div class="about-details">
+                <div class="detail-item">
+                    <h4>Nama</h4>
+                    <p>Nabila dong</p>
+                </div>
+                <div class="detail-item">
+                    <h4>Email</h4>
+                    <p>nabiladong@gmail.com</p>
+                </div>
+                <div class="detail-item">
+                    <h4>Pendidikan</h4>
+                    <p>Kedokteran, UGM</p>
+                </div>
+                <div class="detail-item">
+                    <h4>Lokasi</h4>
+                    <p>Ungaran, Semarang</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-stats">
+            <h3>Pengalaman</h3>
+            <div class="stats-item">
+                <h4>HTML & CSS</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="stats-item">
+                <h4>JavaScript</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="stats-item">
+                <h4>UI/UX Design</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="stats-item">
+                <h4>PHP</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Keterampilan -->
+    <section id="keterampilan" class="skills">
+        <div class="section-header">
+            <h2>Keterampilan</h2>
+            <p>Teknologi dan alat yang saya kuasai</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="images/html-icon.png" alt="HTML5">
+                </div>
+                <h3>HTML5</h3>
+                <p>Mahir dalam penulisan markup dan struktur website</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="images/css-icon.png" alt="CSS3">
+                </div>
+                <h3>CSS3</h3>
+                <p>Styling website responsif dan animasi</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="images/js-icon.png" alt="JavaScript">
+                </div>
+                <h3>JavaScript</h3>
+                <p>Dasar-dasar JavaScript dan DOM manipulation</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="images/figma-icon.png" alt="Figma">
+                </div>
+                <h3>Figma</h3>
+                <p>Prototyping dan desain UI/UX</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="images/git-icon.png" alt="Git">
+                </div>
+                <h3>Git</h3>
+                <p>Version control dan kolaborasi</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="images/bootstrap-icon.png" alt="Bootstrap">
+                </div>
+                <h3>Bootstrap</h3>
+                <p>Framework CSS untuk rapid development</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+    <!-- Bagian Proyek -->
+    <section id="proyek" class="projects">
+        <div class="section-header">
+            <h2>Proyek</h2>
+            <p>Beberapa proyek terbaru yang telah saya kerjakan</p>
+        </div>
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="app">App</button>
+        </div>
+        <div class="projects-container">
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <img src="images/.jpg" alt="E-commerce Website">
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Website</h3>
+                    <p>Website e-commerce responsif dengan fitur keranjang belanja dan checkout.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-small">Demo</a>
+                        <a href="#" class="btn btn-small btn-outline">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="design">
+                <div class="project-image">
+                    <img src="images/.jpg" alt="Mobile App UI Design">
+                </div>
+                <div class="project-info">
+                    <h3>Mobile App UI Design</h3>
+                    <p>UI design untuk aplikasi mobile dengan fokus pada user experience.</p>
+                    <div class="project-tech">
+                        <span>Figma</span>
+                        <span>UI/UX</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-small">Demo</a>
+                        <a href="#" class="btn btn-small btn-outline">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="web">
+                <div class="project-image">
+                    <img src="images/.jpg" alt="Personal Blog">
+                </div>
+                <div class="project-info">
+                    <h3>Personal Blog</h3>
+                    <p>Blog dengan sistem manajemen konten sederhana dan desain responsif.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-small">Demo</a>
+                        <a href="#" class="btn btn-small btn-outline">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="app">
+                <div class="project-image">
+                    <img src="images/.jpg" alt="Task Manager App">
+                </div>
+                <div class="project-info">
+                    <h3>Task Manager App</h3>
+                    <p>Aplikasi web untuk manajemen tugas dengan fitur drag-and-drop.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-small">Demo</a>
+                        <a href="#" class="btn btn-small btn-outline">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Kontak -->
+    <section id="kontak" class="contact">
+        <div class="section-header">
+            <h2>Kontak</h2>
+            <p>Hubungi saya untuk kolaborasi atau pertanyaan</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Lokasi</h3>
+                        <p>[Kota, Provinsi]</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Email</h3>
+                        <p>[email@example.com]</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Telepon</h3>
+                        <p>[+62 xxx-xxxx-xxxx]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div class="contact-form">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subjek</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>

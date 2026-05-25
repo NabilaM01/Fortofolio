@@ -1,0 +1,212 @@
+/* Import font Montserrat dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style dasar */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e3fdfd;
+}
+
+/* Header */
+.section-header h2::after {
+    content: '';
+    position:absolute;
+    left: 50%;
+    bottom: -10%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+    widht: 50px;
+    height: 3px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    color: #071952;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #1e2022;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #071952;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #0a58ca;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #116d6e;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #116d6e;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #198754;
+}
+
+.btn-secondary {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-secondary:hover {
+    background-color: #e0a800;
+}
+
+/* Section header */
+.section-header h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #071952;
+}
+
+.section-header p {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* About section */
+.about {
+    background-color: #f2f7f8;
+    padding: 40px 20px;
+}
+
+/* Skills cards */
+.skills {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: #f0fbfc;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skill-icon img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* Projects */
+.projects {
+    background-color: #e0f7fa;
+    padding: 40px 20px;
+}
+
+.project-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact {
+    background-color: #fef9ef;
+    padding: 40px 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #116d6e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #198754;
+}
+
+/* Progress bar styling */
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: #116d6e;
+    height: 10px;
+}
